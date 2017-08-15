@@ -10,12 +10,12 @@
             HorizontalOptions="Center"
             FontSize="Large"
             Text="Degree Converter"
-            TextColor="Coral">
+            TextColor="Green">
 
         </Label>
         <Label
             Text="Temperature:"
-            TextColor="Blue">
+            TextColor="Orange">
         </Label>
         <Entry
             x:Name="DegreeEntry"
@@ -26,25 +26,25 @@
             HorizontalOptions="Center"
             x:Name="ConvertButton"
             Text="°C - °F"
-            BackgroundColor="LightYellow">
+            BackgroundColor="Chocolate">
         </Button>
         <Button
             HorizontalOptions="Center"
             x:Name="OtherButton"
             Text="°F - °C"
-            BackgroundColor="LightCyan">
+            BackgroundColor="DarkGreen">
         </Button>
 
         <Label
             Text="Centigrade to Fahrenheit:"
-            TextColor="Blue">
+            TextColor="Red">
         </Label>
         <Entry
             x:Name="FahrenheitEntry"
             HorizontalOptions="Start"
             IsEnabled="false"
             Placeholder="Value in Degree Fahrenheit..."
-            BackgroundColor="LightYellow">
+            BackgroundColor="Maroon">
 
         </Entry>
         <Label
@@ -56,7 +56,7 @@
             HorizontalOptions="Start"
             IsEnabled="false"
             Placeholder="Value in Degree Centigrade..."
-            BackgroundColor="LightCyan">
+            BackgroundColor="LemonChiffon">
         </Entry>
 
     </StackLayout>
